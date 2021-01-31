@@ -10,7 +10,7 @@
 public class Stack<Item> {
 	private Node first = null;
 	private int size = 0;
-
+        private int a ;
 	protected class Node {
 		Item item;
 		Node next;
