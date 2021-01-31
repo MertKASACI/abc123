@@ -27,6 +27,7 @@ public class CalcTester extends Stack<Integer> {
 			// It prints out all the items in the stack.
 			case "S":
 				try {
+					System.out.println("aaaa");
 					Node temp = operandDepot.getFirst();
 					System.out.print("[" + temp.getItem());
 					for (int i = 0; i < operandDepot.getSize() - 1; i++) {
