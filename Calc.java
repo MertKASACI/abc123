@@ -16,6 +16,7 @@ public class Calc extends Stack<Integer> {
 		Scanner keyboard = new Scanner(System.in);
 		Stack<Integer> operandDepot = new Stack<Integer>();
 		String input;
+		String a ;
 		// It check the first part of the input and do the latter according to that.
 		do {
 			input = keyboard.nextLine();
